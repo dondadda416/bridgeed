@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─── CSS custom properties (mirrors Tailwind config for JS access) ─── */
+:root {
+  --bg:      #F7F5F0;
+  --surface: #FFFFFF;
+  --surface2:#F0EDE6;
+  --border:  #E2DDD4;
+  --text:    #1A1814;
+  --text2:   #5C5649;
+  --text3:   #6B6358;   /* was #9A9186 — darkened to meet WCAG AA contrast */
+  --accent:  #2C6E49;
+  --accent2: #52B788;
+  --accent3: #95D5B2;
+  --warm:    #E76F51;
+  --warm2:   #F4A261;
+  --warm3:   #FFDDD2;
+  --blue:    #2563EB;
+  --blue2:   #DBEAFE;
+  --purple:  #7C3AED;
+  --purple2: #EDE9FE;
+  --gold:    #B45309;
+  --gold2:   #FEF3C7;
+  --shadow:  0 1px 3px rgba(0,0,0,.08), 0 4px 16px rgba(0,0,0,.06);
+  --shadow-lg: 0 8px 32px rgba(0,0,0,.12);
+  --nav-h:   64px;
+}
+
+/* Dark mode overrides */
+.dark {
+  --bg:      #1A1814;
+  --surface: #242019;
+  --surface2:#2E2924;
+  --border:  #3D3830;
+  --text:    #F0EDE6;
+  --text2:   #B4A99A;
+  --text3:   #6B6358;
+}
+
+/* ─── Base typography ─── */
+h1, h2, h3, h4 { font-family: var(--font-serif), serif; }
+
+/* ─── Scrollbar ─── */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--text3); }
+
+/* ─── Focus visible — never remove outlines, only style them ─── */
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
+button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible {
+  outline: 2px solid var(--accent); outline-offset: 2px;
+}
