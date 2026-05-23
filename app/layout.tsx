@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { DM_Sans, DM_Serif_Display } from 'next/font/google'
 import { AuthProvider } from '@/contexts/AuthContext'
 import { Navigation } from '@/components/Navigation'
+import CookieBanner from '@/components/CookieBanner'
 import './globals.css'
 
 const dmSans = DM_Sans({
@@ -32,6 +33,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <AuthProvider>
           <Navigation />
           <main>{children}</main>
+          <CookieBanner />
         </AuthProvider>
       </body>
     </html>

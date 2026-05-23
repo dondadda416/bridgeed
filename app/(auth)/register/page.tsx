@@ -24,6 +24,7 @@ export default function RegisterPage() {
   const [accessCode,   setAccessCode]   = useState('')
   const [error,        setError]        = useState('')
   const [loading,      setLoading]      = useState(false)
+  const [agreedTerms,  setAgreedTerms]  = useState(false)
 
   async function handleSubmit(e: FormEvent) {
     e.preventDefault()
@@ -39,6 +40,10 @@ export default function RegisterPage() {
     }
     if (!accessCode.trim()) {
       setError('Please enter your school access code.')
+      return
+    }
+    if (!agreedTerms) {
+      setError('Please agree to the Terms of Service and Privacy Policy.')
       return
     }
 
@@ -151,6 +156,23 @@ export default function RegisterPage() {
                 className="w-full px-4 py-3 border-[1.5px] border-border rounded-sm text-[15px] bg-bg text-text outline-none focus:border-accent transition-colors"
               />
             </div>
+
+            {/* Privacy + Terms checkbox */}
+            <label className="flex items-start gap-3 cursor-pointer">
+              <input
+                type="checkbox"
+                checked={agreedTerms}
+                onChange={e => setAgreedTerms(e.target.checked)}
+                className="mt-0.5 w-4 h-4 accent-[#2C6E49] flex-shrink-0"
+              />
+              <span className="text-sm text-text2 leading-relaxed">
+                I agree to BridgeED&apos;s{' '}
+                <Link href="/terms" className="text-accent font-semibold hover:underline">Terms of Service</Link>
+                {' '}and{' '}
+                <Link href="/privacy" className="text-accent font-semibold hover:underline">Privacy Policy</Link>.
+                I understand that my child&apos;s school data is protected under Ontario&apos;s FIPPA.
+              </span>
+            </label>
 
             {error && (
               <p className="text-[13px] text-[#EF4444] bg-[#FEE2E2] px-3 py-2 rounded-sm">{error}</p>
