@@ -7,6 +7,7 @@ import {
   BookOpen, TrendingUp, ChevronRight, Bell
 } from 'lucide-react'
 import { cn } from '@/lib/utils'
+import OnboardingFlow from '@/components/Onboarding'
 
 // ─── Demo data (replace with Firestore queries) ──────────────────────────────
 
@@ -107,6 +108,7 @@ export default function ParentDashboardPage() {
 
   return (
     <div id="main-content" className="pt-nav min-h-screen bg-bg">
+      <OnboardingFlow />
       <div className="max-w-[1100px] mx-auto px-5 py-8">
 
         {/* ── Header ── */}
