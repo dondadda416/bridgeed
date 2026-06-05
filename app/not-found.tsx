@@ -2,7 +2,7 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Page Not Found — BridgeED',
+  title: 'Page Not Found — RECESS',
 }
 
 export default function NotFound() {
@@ -31,8 +31,8 @@ export default function NotFound() {
         </div>
         <p className="text-sm text-text3 mt-8">
           Need help?{' '}
-          <a href="mailto:hello@bridgeed.ca" className="text-accent hover:underline">
-            hello@bridgeed.ca
+          <a href="mailto:hello@recess.ca" className="text-accent hover:underline">
+            hello@recess.ca
           </a>
         </p>
       </div>

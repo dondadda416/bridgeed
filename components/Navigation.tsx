@@ -75,16 +75,16 @@ export function Navigation() {
           <Link
             href="/"
             className="flex items-center gap-2 px-5 flex-shrink-0 no-underline"
-            aria-label="BridgeED home"
+            aria-label="RECESS home"
           >
             <div
               className="w-9 h-9 bg-accent rounded-[10px] flex items-center justify-center font-serif text-white text-lg"
               aria-hidden="true"
             >
-              B
+              R
             </div>
             <span className="font-serif text-[20px] text-text tracking-[-0.3px] hidden sm:inline">
-              Bridge<span className="text-accent">ED</span>
+              RECE<span className="text-accent">SS</span>
             </span>
           </Link>
 
@@ -257,7 +257,7 @@ export function Navigation() {
       </nav>
 
       {/* Sign In Modal */}
-      <Modal open={showSignIn} onClose={() => setShowSignIn(false)} title="Sign In to BridgeED">
+      <Modal open={showSignIn} onClose={() => setShowSignIn(false)} title="Sign In to RECESS">
         <p className="text-base text-text2 mb-6 leading-relaxed">
           Access your child&apos;s progress, messages, and school updates.
         </p>

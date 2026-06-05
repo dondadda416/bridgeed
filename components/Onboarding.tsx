@@ -4,12 +4,12 @@ import { useState, useEffect } from 'react'
 import { CheckCircle, MessageSquare, Calendar } from 'lucide-react'
 import { Modal } from '@/components/ui/Modal'
 
-const STORAGE_KEY = 'bridgeed_onboarding_done'
+const STORAGE_KEY = 'recess_onboarding_done'
 
 const STEPS = [
   {
     id: 'welcome',
-    title: 'Welcome to BridgeED 👋',
+    title: 'Welcome to RECESS 👋',
     subtitle: "You're connected to Maple Ridge Public School.",
     content: (
       <div className="text-center py-2">
@@ -17,7 +17,7 @@ const STEPS = [
           <CheckCircle size={32} className="text-[#065F46]" aria-hidden="true" />
         </div>
         <p className="text-text2 text-base leading-[1.7]">
-          BridgeED gives you a real-time window into your child&apos;s school life —
+          RECESS gives you a real-time window into your child&apos;s school life —
           grades, teacher messages, upcoming events, and curriculum support.
         </p>
         <p className="text-text2 text-base leading-[1.7] mt-3">
@@ -54,7 +54,7 @@ const STEPS = [
   {
     id: 'ready',
     title: "You're all set! 🎉",
-    subtitle: "Here's what you can do with BridgeED.",
+    subtitle: "Here's what you can do with RECESS.",
     content: (
       <div className="py-2 space-y-3">
         {[

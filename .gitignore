@@ -13,6 +13,11 @@ node_modules/
 # production
 /build
 
+# service account keys — never commit
+serviceAccountKey.json
+scripts/serviceAccountKey.json
+*-firebase-adminsdk-*.json
+
 # env files — never commit real credentials
 .env
 .env.local

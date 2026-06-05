@@ -2,8 +2,8 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'About BridgeED',
-  description: 'BridgeED connects Ontario K–8 families and schools for better student outcomes.',
+  title: 'About RECESS',
+  description: 'RECESS connects Ontario K–8 families and schools for better student outcomes.',
 };
 
 export default function AboutPage() {
@@ -16,9 +16,12 @@ export default function AboutPage() {
           <span className="inline-block bg-white/20 text-white text-sm font-sans font-medium px-4 py-1.5 rounded-full mb-6 tracking-wide">
             🍁 Ontario-built
           </span>
-          <h1 className="font-serif text-4xl md:text-5xl font-bold mb-5 leading-tight">
-            About BridgeED
+          <h1 className="font-serif text-4xl md:text-5xl font-bold mb-3 leading-tight">
+            About RECESS
           </h1>
+          <p className="font-sans text-sm md:text-base font-semibold uppercase tracking-[0.12em] text-white/80 mb-5">
+            Responsive Engagement Connecting Every Student&apos;s Stakeholder
+          </p>
           <p className="font-sans text-lg md:text-xl text-white/90 max-w-2xl mx-auto leading-relaxed">
             We believe every family deserves a real window into their child's education — regardless of language, background, or schedule.
           </p>
@@ -30,14 +33,14 @@ export default function AboutPage() {
         <div className="max-w-[1100px] mx-auto">
           <div className="max-w-2xl mx-auto text-center">
             <h2 className="font-serif text-3xl md:text-4xl font-bold text-[#1A1814] mb-8">
-              Why BridgeED exists
+              Why RECESS exists
             </h2>
             <div className="space-y-5 font-sans text-[#5C5649] text-lg leading-relaxed text-left">
               <p>
                 Research is clear: when parents are engaged in their child's education, students do better — in grades, in confidence, and in long-term outcomes. But most school communication tools weren't built for today's families. They assume reliable internet, fluency in English, and schedules that have room for school newsletters and parent portal logins.
               </p>
               <p>
-                That's a gap that falls hardest on newcomer and immigrant families — the parents who, in many ways, are working hardest for their children's futures. BridgeED was built to fix that.
+                That's a gap that falls hardest on newcomer and immigrant families — the parents who, in many ways, are working hardest for their children's futures. RECESS was built to fix that.
               </p>
               <p>
                 It started as a pilot at three Toronto schools in 2023. Since then it has grown to 47 schools across Ontario. The goal has always been simple: make parent engagement easy, accessible, and genuinely useful — for every family, not just the ones the system already works for.
@@ -58,7 +61,7 @@ export default function AboutPage() {
               {
                 step: '1',
                 heading: 'Get your access code',
-                body: 'Your school gives you a unique BridgeED access code — at registration, in a welcome letter, or directly from your child\'s teacher.',
+                body: 'Your school gives you a unique RECESS access code — at registration, in a welcome letter, or directly from your child\'s teacher.',
               },
               {
                 step: '2',
@@ -94,7 +97,7 @@ export default function AboutPage() {
               {
                 icon: '🔒',
                 title: 'Private by design',
-                body: 'No ads. No data selling. Your family\'s information stays between you, your school, and BridgeED. Full stop.',
+                body: 'No ads. No data selling. Your family\'s information stays between you, your school, and RECESS. Full stop.',
               },
               {
                 icon: '🌍',
@@ -148,7 +151,7 @@ export default function AboutPage() {
                 &ldquo;
               </div>
               <blockquote className="font-serif text-2xl md:text-3xl text-[#1A1814] leading-relaxed mb-8">
-                When we moved from Somalia, I had no idea how to talk to my daughter's teacher or what the report cards meant. BridgeED explained everything — in a way I could understand. Now I feel like I'm actually part of her education.
+                When we moved from Somalia, I had no idea how to talk to my daughter's teacher or what the report cards meant. RECESS explained everything — in a way I could understand. Now I feel like I'm actually part of her education.
               </blockquote>
               <div className="font-sans text-[#5C5649]">
                 <span className="font-semibold text-[#1A1814]">Fatuma Abdi</span>
@@ -168,7 +171,7 @@ export default function AboutPage() {
               Built in Ontario, for Ontario
             </h2>
             <p className="font-sans text-[#5C5649] text-lg leading-relaxed max-w-2xl mx-auto">
-              BridgeED is a small team of educators, designers, and parents based in Toronto. We work directly with school boards, settlement agencies, and parent councils to make sure the platform reflects real family needs.
+              RECESS is a small team of educators, designers, and parents based in Toronto. We work directly with school boards, settlement agencies, and parent councils to make sure the platform reflects real family needs.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -176,7 +179,7 @@ export default function AboutPage() {
               {
                 name: 'Priya Sharma',
                 role: 'Co-founder & CEO',
-                bio: 'Former elementary school principal with 14 years in the TDSB. Priya built BridgeED because she saw the same communication gap in every school she led.',
+                bio: 'Former elementary school principal with 14 years in the TDSB. Priya built RECESS because she saw the same communication gap in every school she led.',
                 initials: 'PS',
               },
               {
@@ -188,7 +191,7 @@ export default function AboutPage() {
               {
                 name: 'Anika Patel',
                 role: 'Head of Community',
-                bio: 'Works with newcomer settlement agencies across the GTA. Anika makes sure BridgeED stays grounded in the realities of the families it serves.',
+                bio: 'Works with newcomer settlement agencies across the GTA. Anika makes sure RECESS stays grounded in the realities of the families it serves.',
                 initials: 'AP',
               },
             ].map(({ name, role, bio, initials }) => (
@@ -215,7 +218,7 @@ export default function AboutPage() {
             Ready to get connected?
           </h2>
           <p className="font-sans text-white/80 text-lg mb-10 max-w-xl mx-auto">
-            Join thousands of Ontario families already using BridgeED to stay close to their child's education.
+            Join thousands of Ontario families already using RECESS to stay close to their child's education.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link

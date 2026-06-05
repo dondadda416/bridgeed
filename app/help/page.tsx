@@ -2,7 +2,7 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'New to Ontario Schools? — BridgeED',
+  title: 'New to Ontario Schools? — RECESS',
   description: 'A plain-language guide for newcomer families navigating the Ontario K–8 school system.',
 }
 
@@ -60,8 +60,8 @@ const TIPS = [
   },
   {
     emoji: '📩',
-    heading: 'Use BridgeED messaging',
-    body: 'If speaking feels hard, you can message teachers through BridgeED. Type in your language — we\'ll help translate.',
+    heading: 'Use RECESS messaging',
+    body: 'If speaking feels hard, you can message teachers through RECESS. Type in your language — we\'ll help translate.',
   },
 ]
 
@@ -78,7 +78,7 @@ export default function HelpPage() {
       >
         <div className="max-w-[820px] mx-auto">
           <Link href="/" className="inline-block text-sm text-white/70 hover:text-white mb-6 hover:underline">
-            ← Back to BridgeED
+            ← Back to RECESS
           </Link>
           <div className="inline-flex items-center gap-2 bg-white/15 border border-white/25 rounded-full px-3.5 py-1.5 text-[13px] mb-5">
             🌍 Newcomer Family Support
@@ -150,7 +150,7 @@ export default function HelpPage() {
           <h2 className="font-serif text-2xl text-text mb-4">Report Cards</h2>
           <p className="text-text2 leading-[1.75] mb-5">
             Ontario schools send home three reports each year. You will receive these by email or in your child&apos;s
-            backpack. BridgeED will also notify you when a new report is available.
+            backpack. RECESS will also notify you when a new report is available.
           </p>
           <div className="space-y-3">
             {REPORT_CARD_DATES.map(rc => (
@@ -222,9 +222,9 @@ export default function HelpPage() {
 
         {/* ── Language support ── */}
         <section>
-          <h2 className="font-serif text-2xl text-text mb-4">BridgeED in Your Language</h2>
+          <h2 className="font-serif text-2xl text-text mb-4">RECESS in Your Language</h2>
           <p className="text-text2 leading-[1.75] mb-5">
-            BridgeED is available in 9 languages. You can change your language from the navigation bar at any time.
+            RECESS is available in 9 languages. You can change your language from the navigation bar at any time.
             All core features — messaging, grades, announcements — are fully translated.
           </p>
           <div className="grid grid-cols-3 sm:grid-cols-3 gap-3">
@@ -284,7 +284,7 @@ export default function HelpPage() {
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <a
-              href="mailto:hello@bridgeed.ca"
+              href="mailto:hello@recess.ca"
               className="inline-flex items-center gap-2 bg-accent text-white text-sm font-semibold px-5 py-3 rounded-sm hover:bg-[#235A3B] transition-colors no-underline"
             >
               ✉ Email us
@@ -297,7 +297,7 @@ export default function HelpPage() {
             </Link>
           </div>
           <p className="text-sm text-text3 mt-6">
-            hello@bridgeed.ca · 1-888-BRIDGE-ED
+            hello@recess.ca · 1-888-RECESS
           </p>
         </section>
 

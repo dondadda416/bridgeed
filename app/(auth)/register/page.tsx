@@ -69,10 +69,10 @@ export default function RegisterPage() {
         {/* Logo */}
         <div className="text-center mb-8">
           <div className="w-12 h-12 bg-accent rounded-xl flex items-center justify-center font-serif text-white text-2xl mx-auto mb-3">
-            B
+            R
           </div>
           <h1 className="font-serif text-3xl mb-1">Join your school</h1>
-          <p className="text-text2 text-base">Create your BridgeED account</p>
+          <p className="text-text2 text-base">Create your RECESS account</p>
         </div>
 
         <div className="bg-surface border border-border rounded-lg p-8">
@@ -166,7 +166,7 @@ export default function RegisterPage() {
                 className="mt-0.5 w-4 h-4 accent-[#2C6E49] flex-shrink-0"
               />
               <span className="text-sm text-text2 leading-relaxed">
-                I agree to BridgeED&apos;s{' '}
+                I agree to RECESS&apos;s{' '}
                 <Link href="/terms" className="text-accent font-semibold hover:underline">Terms of Service</Link>
                 {' '}and{' '}
                 <Link href="/privacy" className="text-accent font-semibold hover:underline">Privacy Policy</Link>.

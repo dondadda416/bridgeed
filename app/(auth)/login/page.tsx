@@ -45,10 +45,10 @@ export default function LoginPage() {
         {/* Logo */}
         <div className="text-center mb-8">
           <div className="w-12 h-12 bg-accent rounded-xl flex items-center justify-center font-serif text-white text-2xl mx-auto mb-3">
-            B
+            R
           </div>
           <h1 className="font-serif text-3xl mb-1">Welcome back</h1>
-          <p className="text-text2 text-base">Sign in to your BridgeED account</p>
+          <p className="text-text2 text-base">Sign in to your RECESS account</p>
         </div>
 
         {/* Form */}

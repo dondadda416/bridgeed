@@ -86,8 +86,14 @@ export default function HomePage() {
             <em className="not-italic text-accent3">Success</em>
           </h1>
 
+          <p className="text-sm font-semibold uppercase tracking-[0.12em] text-accent3/90 mb-5">
+            <span className="text-white">R</span>esponsive <span className="text-white">E</span>ngagement{' '}
+            <span className="text-white">C</span>onnecting <span className="text-white">E</span>very{' '}
+            <span className="text-white">S</span>tudent&apos;s <span className="text-white">S</span>takeholder
+          </p>
+
           <p className="text-lg opacity-85 max-w-[580px] leading-[1.65] mb-9">
-            BridgeED gives Ontario families real-time visibility into their child&apos;s education —
+            RECESS gives Ontario families real-time visibility into their child&apos;s education —
             with secure messaging, parent workshops, curriculum guides, and AI-powered progress insights.
           </p>
 
@@ -117,7 +123,7 @@ export default function HomePage() {
           <div className="mt-10 bg-white/10 border border-white/20 rounded-xl px-6 py-5 max-w-[600px]">
             <p className="text-[15px] leading-[1.7] opacity-90 italic mb-4">
               &ldquo;When we moved from Somalia, I had no idea how to talk to my daughter&apos;s teacher.
-              BridgeED explained everything — report cards, the school year, even how to ask for a meeting.
+              RECESS explained everything — report cards, the school year, even how to ask for a meeting.
               Now I feel like I am part of her education.&rdquo;
             </p>
             <div className="flex items-center gap-3">
@@ -170,7 +176,7 @@ export default function HomePage() {
             </span>
             <h2 className="text-[clamp(28px,4vw,40px)] mb-5">Closing the Engagement Gap</h2>
             <p className="text-text2 text-md leading-[1.7] mb-6">
-              Research consistently shows that engaged parents produce better student outcomes. BridgeED was built to
+              Research consistently shows that engaged parents produce better student outcomes. RECESS was built to
               make that engagement accessible — especially for newcomer, immigrant, and underserved families who face
               the highest barriers.
             </p>
@@ -207,7 +213,7 @@ export default function HomePage() {
       >
         <h2 className="font-serif text-[36px] mb-4">Ready to Bridge the Gap?</h2>
         <p className="text-md opacity-85 max-w-[520px] mx-auto mb-8 leading-[1.65]">
-          Join 47 Ontario schools already using BridgeED to connect families and support student success.
+          Join 47 Ontario schools already using RECESS to connect families and support student success.
         </p>
         <div className="flex flex-wrap gap-3 justify-center">
           <Link href="/register"><Button variant="hero-main" size="lg">Join School</Button></Link>

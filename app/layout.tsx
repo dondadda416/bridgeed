@@ -20,10 +20,10 @@ const dmSerif = DM_Serif_Display({
 })
 
 export const metadata: Metadata = {
-  title: 'BridgeED — Ontario K–8 School Family Engagement Platform',
+  title: 'RECESS — Ontario K–8 School Family Engagement Platform',
   description:
     'Connecting Ontario K–8 schools and families for student success. Real-time progress tracking, secure messaging, parent workshops, and curriculum guidance.',
-  keywords: ['Ontario schools', 'parent engagement', 'K-8', 'student progress', 'BridgeED'],
+  keywords: ['Ontario schools', 'parent engagement', 'K-8', 'student progress', 'RECESS'],
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
