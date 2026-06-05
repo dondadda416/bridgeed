@@ -45,9 +45,7 @@ const DEMO_CHILDREN = [
   },
 ]
 
-type SubjectRow = { name: string; pct: number; letter: string; note: string }
-
-const SUBJECTS_BY_CHILD: Record<string, SubjectRow[]> = {
+const SUBJECTS_BY_CHILD: Record<string, { name: string; pct: number; letter: string; note: string }[]> = {
   '1': [
     { name: 'Mathematics',    pct: 78, letter: 'B',  note: 'Working on fractions — great effort this week' },
     { name: 'Language Arts',  pct: 85, letter: 'A−', note: 'Strong reader, keep up the nightly reading' },
