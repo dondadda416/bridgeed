@@ -74,8 +74,9 @@ export function Navigation() {
           {/* Logo */}
           <Link
             href="/"
-            className="flex items-center gap-2 px-5 flex-shrink-0 no-underline"
+            className="flex items-center gap-2.5 px-5 flex-shrink-0 no-underline"
             aria-label="RECESS home"
+            title="RECESS — Responsive Engagement Connecting Every Student's Stakeholder"
           >
             <div
               className="w-9 h-9 bg-accent rounded-[10px] flex items-center justify-center font-serif text-white text-lg"
@@ -83,8 +84,13 @@ export function Navigation() {
             >
               R
             </div>
-            <span className="font-serif text-[20px] text-text tracking-[-0.3px] hidden sm:inline">
-              RECE<span className="text-accent">SS</span>
+            <span className="hidden sm:flex flex-col leading-none">
+              <span className="font-serif text-[20px] text-text tracking-[-0.3px]">
+                RECE<span className="text-accent">SS</span>
+              </span>
+              <span className="hidden xl:block text-[8px] font-semibold uppercase tracking-[0.04em] text-text3 mt-0.5 max-w-[240px] leading-tight">
+                <span className="text-accent">R</span>esponsive <span className="text-accent">E</span>ngagement <span className="text-accent">C</span>onnecting <span className="text-accent">E</span>very <span className="text-accent">S</span>tudent&apos;s <span className="text-accent">S</span>takeholder
+              </span>
             </span>
           </Link>
 
