@@ -211,7 +211,7 @@ export default function HomePage() {
         className="text-white py-[60px] px-10 text-center"
         style={{ background: 'linear-gradient(135deg, #1B4332, #2C6E49)' }}
       >
-        <h2 className="font-serif text-[36px] mb-4">Ready to Bridge the Gap?</h2>
+        <h2 className="font-serif text-[36px] mb-4">Ready to Close the Gap?</h2>
         <p className="text-md opacity-85 max-w-[520px] mx-auto mb-8 leading-[1.65]">
           Join 47 Ontario schools already using RECESS to connect families and support student success.
         </p>
