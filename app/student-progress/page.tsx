@@ -45,7 +45,9 @@ const DEMO_CHILDREN = [
   },
 ]
 
-const SUBJECTS_BY_CHILD: Record<string, typeof AISHA_SUBJECTS> = {
+type SubjectRow = { name: string; pct: number; letter: string; note: string }
+
+const SUBJECTS_BY_CHILD: Record<string, SubjectRow[]> = {
   '1': [
     { name: 'Mathematics',    pct: 78, letter: 'B',  note: 'Working on fractions — great effort this week' },
     { name: 'Language Arts',  pct: 85, letter: 'A−', note: 'Strong reader, keep up the nightly reading' },
